@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:background="@null"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="700px"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Algorithm Project"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:focusableInTouchMode="false"/>
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500px"
+        android:layout_marginLeft="300px"
+        android:layout_marginRight="300px"
+        android:text="시작"
+        android:textSize="18sp"
+        android:backgroundTint="#FFC000"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:orientation="horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="63dp">
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:spinnerMode="dropdown"
+            />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="63dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:spinnerMode="dropdown"/>
+
+        <EditText
+            android:id="@+id/ValueEdit"
+            android:layout_width="51dp"
+            android:layout_height="63dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="Value"
+            android:gravity="center"
+            android:background="@null"
+            />
+
+        <Button
+            android:id="@+id/input_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="입력"
+            android:textSize="25dp"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+    <!--
+    <com.example.algorithm_project.DrawTouchView
+        android:id="@+id/DrawTouchView"
+        android:layout_width="match_parent"
+        android:layout_height="532dp" />
+    -->
+
+    <com.example.algorithm_project.SurfaceDrawTouchView
+        android:id="@+id/SurfaceDrawTouchView"
+        android:layout_width="match_parent"
+        android:layout_height="532dp"/>
+
+    <Button
+        android:id="@+id/resultButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="결과보기"
+
+        android:backgroundTint="@color/purple_200"
+        />
+
+</LinearLayout>
